@@ -2,16 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**.instagram.com',
-      },
-      {
-        protocol: 'https',
-        hostname: '**.tiktok.com',
-      },
-    ],
+    domains: ['instagram.com', 'tiktok.com'],
+    unoptimized: false,
   },
 }
 

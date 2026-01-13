@@ -14,16 +14,10 @@ export default function Navigation() {
             Fischietto
           </Link>
           
-          {/* Desktop Menu */}
+          {/* Desktop Menu - Hidden */}
           <div className="hidden md:flex space-x-6">
             <Link href="/" className="text-gray-700 hover:text-primary-600 transition">
               Home
-            </Link>
-            <Link href="/sport" className="text-gray-700 hover:text-primary-600 transition">
-              Sport
-            </Link>
-            <Link href="/servizi" className="text-gray-700 hover:text-primary-600 transition">
-              Servizi & Prezzi
             </Link>
           </div>
 
@@ -52,20 +46,6 @@ export default function Navigation() {
               onClick={() => setIsOpen(false)}
             >
               Home
-            </Link>
-            <Link 
-              href="/sport" 
-              className="block py-2 text-gray-700 hover:text-primary-600 transition"
-              onClick={() => setIsOpen(false)}
-            >
-              Sport
-            </Link>
-            <Link 
-              href="/servizi" 
-              className="block py-2 text-gray-700 hover:text-primary-600 transition"
-              onClick={() => setIsOpen(false)}
-            >
-              Servizi & Prezzi
             </Link>
           </div>
         )}

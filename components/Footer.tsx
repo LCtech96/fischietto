@@ -20,16 +20,6 @@ export default function Footer() {
                   Home
                 </Link>
               </li>
-              <li>
-                <Link href="/sport" className="hover:text-white transition">
-                  Sport
-                </Link>
-              </li>
-              <li>
-                <Link href="/servizi" className="hover:text-white transition">
-                  Servizi & Prezzi
-                </Link>
-              </li>
             </ul>
           </div>
 
